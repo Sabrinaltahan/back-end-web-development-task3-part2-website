@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Work Experience</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -44,8 +50,9 @@
             </div>
             <button type="submit">Update Work Experience</button>
         </form>
+        <div id="errorMessages" class="error-message"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="assets/js/update.js"></script>
 </body>
 </html>
